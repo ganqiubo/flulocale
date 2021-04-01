@@ -16,5 +16,5 @@ abstract class IFluLocal{
     return FluLocalizations.of(context).value(key);
   }
 
-  String locale(String key){}
+  String locale(String key);
 }
